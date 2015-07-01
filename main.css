@@ -1,0 +1,152 @@
+   html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+#map-canvas{
+        height: 100%;
+        margin: 0px;
+        padding: 0px   
+            
+        }
+#heatmap-canvas{
+        height: 90%;
+        margin: 0px;
+        padding: 0px   
+            
+        }
+#panel {
+        position: absolute;
+        top:30%x;
+        bottom: 30%;
+        width: 100%;
+        text-align: center;
+        z-index: 5;
+        background-color: rgba(168, 51, 51, 0.85);
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border: 1px solid #999;
+        color: white;
+        font-style: italic;
+      }
+#buttons {
+        position: absolute;
+        top: 40px;
+        z-index: 5;
+        background-color: #a6bbc9;
+        padding: 5px;
+        border: 1px solid #999;
+      }
+#heatButton {
+        position: absolute;
+        top: 5px;
+        z-index: 5;
+        background-color: rgba(168, 51, 51, 0.85);
+        padding: 2px;
+        border: 1px solid #999;
+        height: 180px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-style: italic
+      }
+#socialButtons {
+        position: absolute;
+        top: 275px;
+        left: 10px;
+        z-index: 6;
+        padding: 0px;
+    }
+#homeButton {
+        position: absolute;
+        top: 200px;
+        z-index: 7;
+    }
+#insta {
+        background-color: cornflowerblue;
+    }
+
+
+#h1 {
+        font-size: 30;
+        font-style: italic;
+    }
+.input_hidden {
+        position: absolute;
+        left: -9999px;
+    }
+
+.selected {
+        background-color: rgba(100, 149, 237, 0.85);
+    }
+
+#socialButtons label {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+
+#socialButtons label:hover {
+        background-color: #bee5fd;
+        border-radius: 50%;
+    }
+
+#socialButtons label img {
+        padding: 0px;
+
+}
+.img-circle {
+        border-radius: 50%;
+        background-color: rgba(99, 190, 248, 0.42);
+    }
+#heatToggle {
+    background-color: rgb(33, 155, 237);
+    font-weight: bold;
+    color: floralwhite;
+    height: 30px;
+    border-color: white;   
+}
+
+#changeGradient {
+        background-color: rgb(33, 155, 237);
+    font-weight: bold;
+    color: floralwhite;
+    height: 30px;
+    border-color: white;
+}
+
+#changeRadius {
+        background-color: rgb(33, 155, 237);
+    font-weight: bold;
+    color: floralwhite;
+    height: 30px;
+    border-color: white;
+}
+
+#changeOpacity {
+        background-color: rgb(33, 155, 237);
+    font-weight: bold;
+    color: floralwhite;
+    height: 30px;
+    border-color: white;
+}
+#images {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    height: 200px;
+    background-color:  rgba(168, 51, 51, 0.85);
+    z-index: 100;
+}
+.instapic li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0px 20px 20px 0px;
+}
+.instapic {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
